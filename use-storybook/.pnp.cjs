@@ -26,6 +26,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@types/node", "npm:20.11.24"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["@typescript-eslint/eslint-plugin", "virtual:bc8ba14e811bab704373d67f31a87d4d3c48cd6b51da66ecc17424675ffd95570ae3c972f1f5564e668631eb74b7e32f9c664a2c62457a02ea8eeb55769e9697#npm:7.1.0"],\
@@ -38,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:bc8ba14e811bab704373d67f31a87d4d3c48cd6b51da66ecc17424675ffd95570ae3c972f1f5564e668631eb74b7e32f9c664a2c62457a02ea8eeb55769e9697#npm:7.33.2"],\
           ["eslint-plugin-react-hooks", "virtual:bc8ba14e811bab704373d67f31a87d4d3c48cd6b51da66ecc17424675ffd95570ae3c972f1f5564e668631eb74b7e32f9c664a2c62457a02ea8eeb55769e9697#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:bc8ba14e811bab704373d67f31a87d4d3c48cd6b51da66ecc17424675ffd95570ae3c972f1f5564e668631eb74b7e32f9c664a2c62457a02ea8eeb55769e9697#npm:0.4.5"],\
-          ["husky", "npm:9.0.11"],\
+          ["husky", "npm:8.0.3"],\
           ["lint-staged", "npm:15.2.2"],\
           ["npm-run-all", "npm:4.1.5"],\
           ["prettier", "npm:3.2.5"],\
@@ -1015,6 +1016,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/@types-json5-npm-0.0.29-f63a7916bd-10c0.zip/node_modules/@types/json5/",\
         "packageDependencies": [\
           ["@types/json5", "npm:0.0.29"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/node", [\
+      ["npm:20.11.24", {\
+        "packageLocation": "../../.yarn/berry/cache/@types-node-npm-20.11.24-4e19eedf98-10c0.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:20.11.24"],\
+          ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3116,10 +3127,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["husky", [\
-      ["npm:9.0.11", {\
-        "packageLocation": "../../.yarn/berry/cache/husky-npm-9.0.11-227bb1e4e4-10c0.zip/node_modules/husky/",\
+      ["npm:8.0.3", {\
+        "packageLocation": "../../.yarn/berry/cache/husky-npm-8.0.3-b0b59c5127-10c0.zip/node_modules/husky/",\
         "packageDependencies": [\
-          ["husky", "npm:9.0.11"]\
+          ["husky", "npm:8.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5451,6 +5462,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["undici-types", [\
+      ["npm:5.26.5", {\
+        "packageLocation": "../../.yarn/berry/cache/undici-types-npm-5.26.5-de4f7c7bb9-10c0.zip/node_modules/undici-types/",\
+        "packageDependencies": [\
+          ["undici-types", "npm:5.26.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["unique-filename", [\
       ["npm:3.0.0", {\
         "packageLocation": "../../.yarn/berry/cache/unique-filename-npm-3.0.0-77d68e0a45-10c0.zip/node_modules/unique-filename/",\
@@ -5510,6 +5530,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["use-storybook", "workspace:."],\
+          ["@types/node", "npm:20.11.24"],\
           ["@types/react", "npm:18.2.61"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["@typescript-eslint/eslint-plugin", "virtual:bc8ba14e811bab704373d67f31a87d4d3c48cd6b51da66ecc17424675ffd95570ae3c972f1f5564e668631eb74b7e32f9c664a2c62457a02ea8eeb55769e9697#npm:7.1.0"],\
@@ -5522,7 +5543,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:bc8ba14e811bab704373d67f31a87d4d3c48cd6b51da66ecc17424675ffd95570ae3c972f1f5564e668631eb74b7e32f9c664a2c62457a02ea8eeb55769e9697#npm:7.33.2"],\
           ["eslint-plugin-react-hooks", "virtual:bc8ba14e811bab704373d67f31a87d4d3c48cd6b51da66ecc17424675ffd95570ae3c972f1f5564e668631eb74b7e32f9c664a2c62457a02ea8eeb55769e9697#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:bc8ba14e811bab704373d67f31a87d4d3c48cd6b51da66ecc17424675ffd95570ae3c972f1f5564e668631eb74b7e32f9c664a2c62457a02ea8eeb55769e9697#npm:0.4.5"],\
-          ["husky", "npm:9.0.11"],\
+          ["husky", "npm:8.0.3"],\
           ["lint-staged", "npm:15.2.2"],\
           ["npm-run-all", "npm:4.1.5"],\
           ["prettier", "npm:3.2.5"],\
@@ -5559,7 +5580,7 @@ const RAW_RUNTIME_STATE =
           ["vite", "virtual:bc8ba14e811bab704373d67f31a87d4d3c48cd6b51da66ecc17424675ffd95570ae3c972f1f5564e668631eb74b7e32f9c664a2c62457a02ea8eeb55769e9697#npm:5.1.4"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", null],\
+          ["@types/node", "npm:20.11.24"],\
           ["@types/sass", null],\
           ["@types/stylus", null],\
           ["@types/sugarss", null],\
