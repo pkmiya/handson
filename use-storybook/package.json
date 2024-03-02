@@ -14,6 +14,15 @@
     "eslint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,html,css}": [
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
