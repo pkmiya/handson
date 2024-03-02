@@ -808,7 +808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.2.56":
+"@types/react@npm:*, @types/react@npm:^18.2.61":
   version: 18.2.61
   resolution: "@types/react@npm:18.2.61"
   dependencies:
@@ -5106,7 +5106,7 @@ __metadata:
   resolution: "use-storybook@workspace:."
   dependencies:
     "@types/node": "npm:^20.11.24"
-    "@types/react": "npm:^18.2.56"
+    "@types/react": "npm:^18.2.61"
     "@types/react-dom": "npm:^18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:^7.1.0"
     "@typescript-eslint/parser": "npm:^7.1.0"
