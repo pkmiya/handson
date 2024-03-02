@@ -1,4 +1,5 @@
 # Steps
+参考記事：[Zenn - Viteで作成したReact+TypeScriptプロジェクトにTailwindCSS+Storybookを導入する](https://zenn.dev/alesion/articles/132483d3fb6949)
 ## Create a new project
 ```bash
 yarn create vite use-storybook --template react-ts
