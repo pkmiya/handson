@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-reactjs-chat",
+  "version": "1.0.0",
+  "description": "nodejs-reactjs-chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write .",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  },
+  "author": "Yusaku Miyata",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.6.0",
+    "prettier": "^3.3.2"
+  },
+  "volta": {
+    "node": "21.1.0"
+  }
+}
