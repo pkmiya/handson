@@ -16,7 +16,7 @@
 #### Configure the project
 
 1. In `/backend` folder, copy `.env.example` to `.env` and fill in the `CHAT_ENGINE_PRIVATE_KEY` from ChatEngine.io.
-2. In `/frontend` folder, copy `.env.example` to `.env` and fill in the `REACT_APP_CHAT_ENGINE_PROJECT_ID` from ChatEngine.io.
+2. In `/frontend` folder, copy `.env.example` to `.env` and fill in the `VITE_CHAT_PROJECT_ID` from ChatEngine.io.
 
 #### Install dependencies
 
